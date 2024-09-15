@@ -1,0 +1,11 @@
+pyserial
+langchain
+chromadb
+openai
+tiktoken
+fitz
+frontent
+tools
+sentence_transformers
+PyMuPDF
+langchain_huggingface
