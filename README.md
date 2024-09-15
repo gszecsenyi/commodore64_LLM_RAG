@@ -1,8 +1,13 @@
 # commodore64 LLM RAG application with Python backend
 
+Commodore 64 frontend, and python backend to query the latest free Commodore 64 User Guide into RAG architecture using LLM ChromaDB.
+
+OpenAI Token required to run.  
+
 ## The C64 application
 ![Screenshot](img/screenshot_with_issue.png)
 
+The application sends the data to the Python environment without errors, but 1 or 1 letter is missing during the return. 
 ## Setup the environment
 
 ### Configure the serial port
