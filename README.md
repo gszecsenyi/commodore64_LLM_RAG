@@ -1,4 +1,4 @@
-# commodore64_LLM
+# commodore64 LLM RAG application with Python backend
 
 ## Setup the environment
 
