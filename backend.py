@@ -87,7 +87,7 @@ else:
     embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
     vectorstore = Chroma(persist_directory=chroma_db_directory, embedding_function=embeddings)
 
-ser = serial.Serial('/dev/ttys016', baudrate=300, timeout=2)
+ser = serial.Serial('/dev/ttys016', baudrate=1200, timeout=2)
 
 duration = 300  # Duration in seconds
 interval = 3  # Interval in seconds

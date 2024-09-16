@@ -4,7 +4,7 @@ chromadb
 openai
 tiktoken
 fitz
-frontent
+frontend
 tools
 sentence_transformers
 PyMuPDF

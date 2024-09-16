@@ -10,7 +10,7 @@ def replace_special_characters(text):
         text = text.replace(key, value)
     return text
 
-ser = serial.Serial('/dev/ttys016', baudrate=300, timeout=2)
+ser = serial.Serial('/dev/ttys016', baudrate=1200, timeout=2)
 
 duration = 300  # Duration in seconds
 interval = 3  # Interval in seconds
@@ -28,7 +28,7 @@ while time.time() - start_time < duration:
         text = answer.upper().encode('ascii', 'ignore')
         
         ser.write(text)
-        print(f"Sent to VICE: {answer}")
+        print(f"Sent to VICE: {text}")
 
 print("Exiting...")
 
