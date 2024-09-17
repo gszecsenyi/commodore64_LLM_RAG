@@ -6,7 +6,7 @@ OpenAI Token required to run.
 
 ![Commodore64_and_tv](img/commodore64_and_tv.jpeg)
 
-## Executing the C64 application in emulaltor
+## Executing the C64 application with emulaltor
 ![Screenshot](img/screenshot_with_issue.png)
 
 The application sends the data to the Python environment without errors, but 1 or 1 letter is missing during the return. 
