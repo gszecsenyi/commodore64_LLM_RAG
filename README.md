@@ -2,9 +2,11 @@
 
 Commodore 64 frontend, and python backend to query the latest free Commodore 64 User Guide into RAG architecture using LLM ChromaDB.
 
-OpenAI Token required to run.  
+OpenAI Token required to run. 
 
-## The C64 application
+![Commodore64_and_tv](img/commodore64_and_tv.jpeg)
+
+## Executing the C64 application with emulaltor
 ![Screenshot](img/screenshot_with_issue.png)
 
 The application sends the data to the Python environment without errors, but 1 or 1 letter is missing during the return. 
